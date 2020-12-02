@@ -1,0 +1,35 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[packages]
+appdirs = "*"
+asgiref = "*"
+astroid = "*"
+colorama = "*"
+distlib = "*"
+dj-database-url = "*"
+Django = "*"
+django-filter = "*"
+django-rest = "*"
+djangorestframework = "*"
+django_heroku = "*"
+filelock = "*"
+gunicorn = "*"
+isort = "*"
+lazy-object-proxy = "*"
+Markdown = "*"
+mccabe = "*"
+Pillow = "*"
+psycopg2-binary = "*"
+pylint = "*"
+pytz = "*"
+six = "*"
+sqlparse = "*"
+toml = "*"
+virtualenv = "*"
+whitenoise = "*"
+wrapt = "*"
+
+[requires]
+python_version = "3.9.0"

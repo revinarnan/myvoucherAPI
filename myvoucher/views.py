@@ -8,7 +8,7 @@ from .models import myvoucher
 class myvoucherViewSet(viewsets.ModelViewSet):
     queryset = myvoucher.objects.all().order_by('id')
     serializer_class = myvoucherSerializers
-
+    
 #def image(request):
 #    image_file = request.FILES['image_file'].file.read()
 #    myvoucher.objects.create(gambar=image_file)
