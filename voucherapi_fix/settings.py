@@ -27,7 +27,7 @@ SECRET_KEY = 'px)-3kqkowvky$)0#ad5c7qt9u88f5$n9!a$2zb@-oc5t=*2)w'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://myvoucher-api.herokuapp.com/',
+    'myvoucher-api.herokuapp.com',
     '127.0.0.1'
 ]
 
