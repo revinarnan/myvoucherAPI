@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'px)-3kqkowvky$)0#ad5c7qt9u88f5$n9!a$2zb@-oc5t=*2)w'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     'https://myvoucher-api.herokuapp.com/',

@@ -1,1 +1,1 @@
-web: gunicorn myvoucher.wsgi
+web: gunicorn voucherapi_fix.wsgi
