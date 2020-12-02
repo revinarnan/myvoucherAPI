@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'voucherapi_fix.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd35k47b5l0khbl', 
-        'USER': 'qofoxknsxztbnr', 
-        'PASSWORD': '5cc75289aaa558153ded7c8bc7e67d310d3933616870213ab19d218d4813160c',
-        'HOST': 'ec2-54-235-158-17.compute-1.amazonaws.com', 
+        'NAME': '', 
+        'USER': '', 
+        'PASSWORD': '',
+        'HOST': '', 
         'PORT': '5432',
     }
 }
