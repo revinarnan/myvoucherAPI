@@ -3,7 +3,7 @@ from rest_framework import routers
 from . import views
 
 router = routers.DefaultRouter()
-router.register(r'API/v1', views.myvoucherViewSet)
+router.register(r'api/v1', views.myvoucherViewSet)
 
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
