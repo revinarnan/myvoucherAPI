@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -54,6 +55,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = 'voucherapi_fix.urls'
@@ -83,10 +86,10 @@ WSGI_APPLICATION = 'voucherapi_fix.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': '', 
-        'USER': '', 
-        'PASSWORD': '',
-        'HOST': '', 
+        'NAME': 'd35k47b5l0khbl', 
+        'USER': 'qofoxknsxztbnr', 
+        'PASSWORD': '5cc75289aaa558153ded7c8bc7e67d310d3933616870213ab19d218d4813160c',
+        'HOST': 'ec2-54-235-158-17.compute-1.amazonaws.com', 
         'PORT': '5432',
     }
 }
