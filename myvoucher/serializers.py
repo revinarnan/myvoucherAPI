@@ -14,5 +14,6 @@ class myvoucherSerializers(serializers.HyperlinkedModelSerializer):
         'tgl_mulai',
         'tgl_selesai',
         'alamat',
+        'info',
         'gambar',
         )
